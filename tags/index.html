@@ -51,50 +51,7 @@
     <div class="row">
       <div class="col-12">
         
-		<div class="form">
-<div>
-<h1>Bereken uw prijs!</h1>
-<p>Vul uw gegevens in.</p>
-<form onChange="prijsUpdate();">
-	<table>
-
- 	<tr><td>Brontaal:</td>
-	<td><select name="brontaal" id="brontaal">
-		<option value="Deens">Deens</option>
-		<option value="Duits">Duits</option>
-		<option value="Engels" selected>Engels</option>
-		<option value="Esperanto">Esperanto</option>
-		<option value="Frans">Frans</option>
-		<option value="Italiaans">Italiaans</option>
-		<option value="Nederlands">Nederlands</option>
-		<option value="Pools">Pools</option>
-		<option value="Spaans">Spaans</option>
-		<option value="Zweeds">Zweeds</option>
-	</select></td></tr>
-	<tr><td>Doeltaal:</td>
-	<td><select name="doeltaal" id="doeltaal">
-		<option value="Engels">Engels</option>
-		<option value="Esperanto">Esperanto</option>
-		<option value="Nederlands" selected>Nederlands</option>
-	</select></td></tr> 
-	<tr id="ikweet" id="paginainput" style="display:none"><td width="140">Ik weet het aantal</td><td colspan="2"><input type="radio" name="telling" id="telWoorden" checked onChange="inWoorden()">woorden<input type="radio" name="telling" id="telPaginas" onChange="inPaginas()">pagina's.</td></tr>
-	<tr id="woordinput"><td>Aantal woorden:</td><td colspan="2"><input type="number" name="woorden" id="woorden" min="1" required></td></tr>
-	<tr id="paginainput"><td>Aantal pagina's:</td><td colspan="2"><input type="number" name="paginas" id="paginas" value="1" min="1" required></td></tr>
-	<tr id="scaninput"><td colspan="2">Het bestand is niet in tekstvorm (bijvoorbeeld een scan).</td><td><input type="checkbox" name="scan" id="scan" value="ja"></td></tr>
-	<tr><td colspan="2">De opmaak moet exact overeenkomen met het origineel.</td><td><input type="checkbox" name="opmaak" id="opmaak" value="ja"></td></tr>
-
-	<tr><td>BTW:</td>
-	<td><select name="btw" id="btw">
-		<option value="nul">0% of naar mij verlegd</option>
-		<option value="21" selected>21%</option>
-	</select></td></tr> 
-	<tr><td>Geschatte prijs:</td><td id="prijs" colspan="2"></td></tr>
-	<tr><td colspan="3"><a onClick="emailen()" href="mailto:formulier@alpako.nl?subject=Vertaling%20alpako.nl&body=" id="verzenden"><input type="button" value="Stuur een e-mail!"></a></td></tr>
-	</table>
-</form>
-</div>
-<script src="https://tt.alpako.nl//script/formulier.js"></script>
-</div>
+		<div class="form"></div>
       </div>
     </div>
   </div>
